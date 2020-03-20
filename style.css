@@ -1,0 +1,124 @@
+/* Header Section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 70px;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 20px 15px 30px;
+  width: 100%;
+  background-color: #9a9c9a;
+  overflow: auto;
+}
+#title{
+  display: inline;
+  float: left;
+}
+
+#title h1{
+  display: inline;
+}
+
+nav{
+  float: right;
+  margin-top: 12px;
+}
+nav ul li{
+  display: inline;
+  margin: 3px;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 7px;
+}
+nav ul li a:hover{
+  color: white;
+  background-color: black;
+}
+
+/* Body of Page */
+.content{
+  max-width: 66%;
+  margin: auto;
+  padding: 20px;
+  background-color: #a8a8a8;
+
+}
+#about{
+  line-height: 180%;
+}
+#portfolio{
+  margin: 20px 0px 20px 0px;
+
+}
+#portfolio img{
+  margin: 5px 10px 5px 10px;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 3px;
+  display: inline;
+}
+.container{
+
+}
+.pictures{
+  max-width: 75%;
+  display: block;
+  margin: auto;
+
+}
+#contact{
+  
+}
+#contact-form{
+  display: inline-block;
+  width: 45%;
+  
+}
+#contact-blurb{
+  display: inline-block;
+  width: 45%;
+}
+
+/* Footer */
+footer{
+  clear: both;
+  width: 100%;
+  background-color: #9a9c9a;
+  color: black;
+  padding: 10px;
+}
+#left-footer{
+  float: left;
+ text-align: left;
+ width: 50%;
+  height: 50px;
+}
+#right-footer{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50px;
+  right: 0px;
+  bottom: 0px;
+}
+#social{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  max-width: 200px;
+  height: 50px;
+}
+#center-footer{
+  clear: both;
+  text-align: center;
+}
